@@ -1,0 +1,132 @@
+[
+    {
+        "origin": "A",
+        "destination": "B",
+        "duration": 3
+    },
+    {
+        "origin": "B",
+        "destination": "D",
+        "duration": 2
+    },
+    {
+        "origin": "D",
+        "destination": "A",
+        "duration": 1
+    },
+    {
+        "origin": "A",
+        "destination": "C",
+        "duration": 1
+    },
+    {
+        "origin": "C",
+        "destination": "D",
+        "duration": 5
+    },
+    {
+        "origin": "C",
+        "destination": "E",
+        "duration": 2
+    },
+    {
+        "origin": "E",
+        "destination": "D",
+        "duration": 3
+    },
+    {
+        "origin": "E",
+        "destination": "F",
+        "duration": 1
+    },
+    {
+        "origin": "F",
+        "destination": "G",
+        "duration": 1
+    },
+    {
+        "origin": "G",
+        "destination": "H",
+        "duration": 2
+    },
+    {
+        "origin": "H",
+        "destination": "I",
+        "duration": 2
+    },
+    {
+        "origin": "I",
+        "destination": "J",
+        "duration": 1
+    },
+    {
+        "origin": "I",
+        "destination": "G",
+        "duration": 1
+    },
+    {
+        "origin": "G",
+        "destination": "K",
+        "duration": 8
+    },
+    {
+        "origin": "K",
+        "destination": "L",
+        "duration": 1
+    },
+    {
+        "origin": "L",
+        "destination": "M",
+        "duration": 1
+    },
+    {
+        "origin": "E",
+        "destination": "M",
+        "duration": 10
+    },
+    {
+        "origin": "M",
+        "destination": "N",
+        "duration": 2
+    },
+    {
+        "origin": "N",
+        "destination": "O",
+        "duration": 2
+    },
+    {
+        "origin": "O",
+        "destination": "P",
+        "duration": 2
+    },
+    {
+        "origin": "O",
+        "destination": "Q",
+        "duration": 1
+    },
+    {
+        "origin": "P",
+        "destination": "Q",
+        "duration": 2
+    },
+    {
+        "origin": "N",
+        "destination": "Q",
+        "duration": 1
+    },
+    {
+        "origin": "Q",
+        "destination": "R",
+        "duration": 5
+    },
+    {
+        "origin": "R",
+        "destination": "N",
+        "duration": 3
+    },
+    {
+        "origin": "D",
+        "destination": "R",
+        "duration": 6
+    }
+]

@@ -1,0 +1,46 @@
+<div class=container>
+    <h1 class="text-center mb-5">Traversing Graph</h1>
+    
+<div class="input-group mb-3 row">
+    <div class="input-group col-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="origin-text">Lähtökohta</span>
+          </div>
+          <input type="text" 
+                class="form-control" 
+                placeholder="Lähtökohta" 
+                aria-label="Lähtökohta"
+                id="origin-input"
+                [(ngModel)]="origin">
+    </div>
+
+    <div class="input-group col-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="origin-text">Määränpää</span>
+          </div>
+          <input type="text" 
+                class="form-control" 
+                placeholder="Määränpää" 
+                aria-label="Määränpää"
+                id="origin-input"
+                [(ngModel)]="destination">
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <button 
+            [disabled]="!origin || !destination"
+            class="btn btn-secondary"
+            (click)="breadthFirstSearch()">BFS</button>
+    </div>
+</div>
+<ul *ngIf="possiblePaths.length > 0">
+    <li *ngFor="let path of possiblePaths">
+        {{path}}
+    </li>
+</ul>
+
+<div>
+    {{shortestPath}}
+</div>
+</div>

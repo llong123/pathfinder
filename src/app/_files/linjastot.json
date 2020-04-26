@@ -1,0 +1,51 @@
+[
+    {
+        "name": "keltainen",
+        "route": [
+            "E",
+            "F",
+            "G",
+            "K",
+            "L",
+            "M",
+            "N"
+        ]
+    },
+    {
+        "name": "punainen",
+        "route": [
+            "C",
+            "D",
+            "R",
+            "Q",
+            "N",
+            "O",
+            "P"
+        ]
+    },
+    {
+        "name": "vihreä",
+        "route": [
+            "D",
+            "B",
+            "A",
+            "C",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+        ]
+    },
+    {
+        "name": "sininen",
+        "route": [
+            "D",
+            "E",
+            "M",
+            "N",
+            "O"
+        ]
+    }
+]
